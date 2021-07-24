@@ -6,8 +6,9 @@
   // TODO:use image
   const image = document.querySelector("#channel-header-container img").src;
   const title = document.querySelector('meta[property~="og:title"]').content;
-  const text = document.querySelector('meta[property~="og:description"]')
-    .content;
+  const text = document.querySelector(
+    'meta[property~="og:description"]'
+  ).content;
   const url =
     e +
     "?url=" +
@@ -33,4 +34,4 @@
     ) || (location.href = url);
   };
   /Firefox/.test(navigator.userAgent) ? setTimeout(c, 0) : c();
-})("https://wordpress.com/post/arabicyoutubechannels.wordpress.com");
+})("https://wordpress.com/post/youtubechannels.wordpress.com");
